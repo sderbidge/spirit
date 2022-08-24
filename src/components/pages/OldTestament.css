@@ -1,0 +1,35 @@
+.old-testament-hero {
+  background: url("../../../public/assets/isaiah.jpeg") center center/cover
+    no-repeat;
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  color: #fff;
+  font-size: 48px;
+}
+
+.old-testament-body {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 55%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.paragraph-container > p {
+  text-indent: 50px;
+  font-size: 22px;
+  margin-bottom: 15px;
+}

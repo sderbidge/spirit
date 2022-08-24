@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
+
+.bottom-arrow {
+  margin-top: 0px;
+  font-size: 48px;
+  transition: margin-top 0.3s;
+  cursor: pointer;
+}
+
+.bottom-arrow:hover {
+  margin-top: 10px;
+  color: rgb(190, 190, 190);
+}
+
+.about-hero {
+  background: url("../../../public/assets/rome-temple.jpeg") center center/cover
+    no-repeat;
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  color: #fff;
+  font-size: 48px;
+}
+
+#strengthen {
+  color: rgb(102, 102, 102);
+}
+
+#inspire {
+  color: rgb(169, 169, 169);
+}
+
+#uplift {
+  color: rgb(241, 151, 34);
+}
+
+.about-header {
+  margin-top: 15px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.about-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.scripture {
+  font-size: 24px;
+  padding: 30px;
+  width: 50%;
+  padding: 15px;
+  background-color: rgb(241, 241, 241);
+}
+
+.about-sub-header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.about-sub-header > h2 {
+  color: rgb(29, 29, 29);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  width: 75%;
+  text-align: center;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+#explore-trailer {
+  overflow: hidden;
+  border: 0;
+  align-self: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-video-container {
+  position: relative;
+  padding-bottom: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-video {
+  overflow: hidden;
+  border: 0;
+  align-self: center;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: 60%;
+  height: 70%;
+}
